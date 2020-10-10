@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('assets/winter.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.unit {
+    text-align: center;  
+}
+
+.unit span {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
